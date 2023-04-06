@@ -2,6 +2,7 @@
   box-sizing: border-box;
 
 }
+/*declearing variables*/
 :root{
   --font-size: 70px;
   --clr-accent-1: hsl(0, 100%, 67%,.1);
@@ -25,6 +26,7 @@ body{
   
   
 }
+
 @media (min-width: 600px) {
   body{
     display: grid;
@@ -180,10 +182,7 @@ font-weight: 700;
   color: hsl(224, 30%, 27% ,.5);
 
 }
-/*trying out if "summery" will look better in the midddle of the section*/
-.section-title{
-  text-align: center;
-}
+
 /* adding hover styles to the summary section */
 .summery-items:hover{
   border-radius: 0px;
